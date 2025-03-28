@@ -12,8 +12,6 @@ df_ge.head()
 
 
 # 1. ПОЛНОТА
-# Проверим датафрейм на наличие пустых значений в колонках,
-# чтобы понять, с какими из них стоит работать.
 # Если в колонке большой процент значений NaN/Null, значит
 # данные не качественные.
 
@@ -25,7 +23,7 @@ check1_Cabin = df_ge.expect_column_values_to_not_be_null(   # "значение 
     mostly = 0.25   # пороговое значение, говорящее, что "как минимум 25% должно быть не Null"
 )
 
-#print('check1_Cabin: ', check1_Cabin)
+print('check1_Cabin: ', check1_Cabin)
 
 # В result:
 # — "element_count" это размер нашего датафрейма,
@@ -44,7 +42,7 @@ check1_Ticket = df_ge.expect_column_values_to_not_be_null(
     mostly = 0.99
 )
 
-#print('check1_Ticket: ', check1_Ticket)
+print('check1_Ticket: ', check1_Ticket)
 
 if not check1_Ticket['success']:
     print(check1_Ticket['result'])
