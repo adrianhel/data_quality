@@ -1,5 +1,8 @@
 # Data Quality
-#### [Назад к списку репозиториев ⤶](https://github.com/adrianhel/contents)
+
+![dq](https://img.shields.io/badge/data_quality-green)
+
+### [Назад к Содержанию ⤶](https://github.com/adrianhel/contents)
 
 >_Репозиторий для хранения заметок и кода задач по качеству данных._
 
