@@ -1,6 +1,6 @@
 # Data Quality
 
-![dq](https://img.shields.io/badge/data_quality-green)
+![dq](https://img.shields.io/badge/data_quality-grey)
 
 ### [Назад к Содержанию ⤶](https://github.com/adrianhel/contents)
 
