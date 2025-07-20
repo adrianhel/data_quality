@@ -1,10 +1,10 @@
-import great_expectations as ge
+import great_expectations as gx
 import pandas as pd
 
 df = pd.read_csv('titanic.csv')
 df.head()
 
-print(df.dtypes)
+#print(df.dtypes)
 
 # PassengerId      int64
 # Survived         int64
@@ -20,7 +20,7 @@ print(df.dtypes)
 # Embarked        object
 # dtype: object
 
-print(df['Cabin'])
+#print(df['Cabin'])
 
 # 0       NaN
 # 1       C85
@@ -35,5 +35,7 @@ print(df['Cabin'])
 # 890     NaN
 # Name: Cabin, Length: 891, dtype: object
 
-df_ge = ge.from_pandas(df)
+
+df_ge = gx.from_pandas(df)
 df_ge.head()
+
