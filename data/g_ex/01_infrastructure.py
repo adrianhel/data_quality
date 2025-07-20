@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_csv('titanic.csv')
 df.head()
 
-#print(df.dtypes)
+print(df.dtypes)
 
 # PassengerId      int64
 # Survived         int64
@@ -20,7 +20,7 @@ df.head()
 # Embarked        object
 # dtype: object
 
-#print(df['Cabin'])
+print(df['Cabin'])
 
 # 0       NaN
 # 1       C85

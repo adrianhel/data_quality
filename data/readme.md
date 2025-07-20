@@ -1,7 +1,7 @@
 # Great Expectations
 
-[![Python](https://img.shields.io/badge/python-3.11.0-blue?logo=pypi)](https://www.python.org/downloads/release/python-3110/) 
-[![Pandas](https://img.shields.io/badge/pandas-2.1.2-blue?logo=pandas)](https://pandas.pydata.org/docs/whatsnew/v2.1.2.html) 
+[![Python](https://img.shields.io/badge/python-3.11.9-blue?logo=pypi)](https://www.python.org/downloads/release/python-3110/) 
+[![Pandas](https://img.shields.io/badge/pandas-2.3.1-blue?logo=pandas)](https://pandas.pydata.org/docs/whatsnew/v2.1.2.html) 
 [![GX](https://img.shields.io/badge/great_expectations-0.18.11-blue)](https://github.com/great-expectations) 
 
 ### [Назад в Data Quality ⤶](/README.md)
@@ -19,13 +19,13 @@ ___
 ## Содержание проекта
 1. **[Инфраструктура](g_ex/01_infrastructure.md)**:
 _Подгружаем библиотеку и датасет._  
-2. **[Полнота](g_ex/completeness.py)**: 
+2. **[Полнота](g_ex/02_completeness.py)**: 
 _Проверяем датафрейм на наличие пустых значений в колонках._  
-3. **[Уникальность](g_ex/uniqueness.py)**:
+3. **[Уникальность](g_ex/03_uniqueness.py)**:
 _Проверяем датафрейм на количество уникальных значений в колонках._  
-4. **[Достоверность](g_ex/validity.py)**:
+4. **[Достоверность](g_ex/04_validity.py)**:
 _Проверяем насколько данные отвечают определенным требованиям._  
-5. **[Согласованность](g_ex/consistency.py)**:
+5. **[Согласованность](g_ex/05_consistency.py)**:
 _Проверяем на принадлежность данных определенным диапазонам/правилам._  
 
 ## Используемые инструменты
