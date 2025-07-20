@@ -42,7 +42,7 @@ print(df.dtypes)
 print(df['Cabin'])
 ```
 
-<img src="/img/gx_1.3.png" width="40%">  
+<img src="/img/gx_1.3.png" width="30%">  
 
 Первое, что бросается в глаза, это наличие значений **NaN** (это отсутствие какого-либо значения) в колонке `Cabin`.  
 
