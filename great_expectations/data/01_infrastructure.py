@@ -1,4 +1,4 @@
-import great_expectations as gx
+import great_expectations as ge
 import pandas as pd
 
 df = pd.read_csv('titanic.csv')
@@ -35,5 +35,5 @@ print(df['Cabin'])
 # 890     NaN
 # Name: Cabin, Length: 891, dtype: object
 
-df_ge = gx.from_pandas(df)
+df_ge = ge.from_pandas(df)
 df_ge.head()
