@@ -26,7 +26,7 @@ df = pd.read_csv('titanic.csv')
 print(df.head())
 ```
 
-<img src="/img/gx_1.1.png" width="100%">  
+<img src="/img/gx_1.1.png" width="80%">  
 
 - Выводим в качестве проверки список типов данных:
 
@@ -34,7 +34,7 @@ print(df.head())
 print(df.dtypes)
 ```
 
-<img src="/img/gx_1.2.png" width="100%">  
+<img src="/img/gx_1.2.png" width="80%">  
 
 - Выводим в качестве проверки количество занятых мест по каютам:
 
@@ -42,7 +42,7 @@ print(df.dtypes)
 print(df['Cabin'])
 ```
 
-<img src="/img/gx_1.3.png" width="100%">  
+<img src="/img/gx_1.3.png" width="80%">  
 
 Первое, что бросается в глаза, это наличие значений **NaN** (это отсутствие какого-либо значения) в колонке `Cabin`.  
 
@@ -60,7 +60,7 @@ df_ge = gx.from_pandas(df)
 print(df_ge.head())
 ```
 
-<img src="/img/gx_1.4.png" width="100%">  
+<img src="/img/gx_1.4.png" width="80%">  
 
 ## 1.3 Код
 - [Инфраструктура (код)](01_infrastructure.py)
