@@ -6,7 +6,7 @@
 
 ___
 
-<img src="pic/data_quality.png" width="100%">
+<img src="img/data_quality.png" width="100%">
 
 > _**Качество данных** (Data Quality)_ — это набор характеристик, определяющих свойства и пригодность данных для их 
 > использования.
