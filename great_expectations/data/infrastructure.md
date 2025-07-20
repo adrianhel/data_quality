@@ -1,3 +1,23 @@
+# 1. Инфраструктура
+## 1.1 Установка необходимых библиотек
+Для работы должен быть установлен **Python** версии **3.11**.
+
+Устанавливаем библиотеку проверок качества данных:
+
+```bash
+pip install great_expectations==0.18.11
+```
+
+Устанавливаем библиотеку pandas:
+
+```bash
+pip install pandas
+```
+
+## 1.2 Приступаем к работе
+
+```python
+# Импортируем библиотеки
 import great_expectations as gx
 import pandas as pd
 
@@ -21,3 +41,4 @@ print(df['Cabin'])
 # создаем объект датафрейма GE (библиотека ожиданий)
 df_ge = gx.from_pandas(df)
 df_ge.head()
+```

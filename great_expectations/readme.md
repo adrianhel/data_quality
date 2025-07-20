@@ -1,5 +1,9 @@
 # Great Expectations
 
+[![Python](https://img.shields.io/badge/python-3.11.0-blue?logo=pypi)](https://www.python.org/downloads/release/python-3110/)
+[![Pandas](https://img.shields.io/badge/pandas-blue?logo=pandas)]()
+[![GX](https://img.shields.io/badge/great-expectations-blue)](https://github.com/great-expectations)
+
 ### [Назад в Data Quality ⤶](/README.md)
 
 ___
@@ -13,7 +17,7 @@ ___
 - [Титаник](data/titanic.csv)
 
 ## Содержание
-1. **[Инфраструктура](data/infrastructure.py)**:
+1. **[Инфраструктура](data/infrastructure.md)**:
 _Подгружаем библиотеку и датасет._  
 2. **[Полнота](data/completeness.py)**: 
 _Проверяем датафрейм на наличие пустых значений в колонках._  
@@ -34,5 +38,6 @@ _Проверяем на принадлежность данных опреде�
 > ***Great Expectations (GX)*** — это опенсорсный инструмент на основе Python для управления качеством данных.  
 
 **GX** предоставляет возможность профилировать и тестировать данные, а также составлять по ним отчёты.
-
-#### Больше информации по библотеке [Great Expectations](https://github.com/great-expectations).
+  
+ ---  
+Больше информации по библотеке [Great Expectations](https://github.com/great-expectations).
