@@ -27,5 +27,5 @@ ___
 - Несогласованность форматов
 
 ## Инструменты обеспечения качества данных
-- ### Библиотека [Great Expectations](great_expectations/readme.md)
+- ### Библиотека [Great Expectations](data/readme.md)
 

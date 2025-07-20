@@ -5,7 +5,7 @@
 Устанавливаем библиотеку проверок качества данных:
 
 ```bash
-pip install great_expectations==0.18.11
+pip install great_exp==0.18.11
 ```
 
 Устанавливаем библиотеку pandas:

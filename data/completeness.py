@@ -1,4 +1,4 @@
-import great_expectations as gx
+import great_exp as gx
 import pandas as pd
 
 
