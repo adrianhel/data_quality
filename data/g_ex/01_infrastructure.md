@@ -50,4 +50,4 @@ df_ge.head()
 
 ## 1.3 Код
 
-[Инфраструктура](data/01_infrastructure.py)
+[Код: Инфраструктура](g_ex/01_infrastructure.md)
