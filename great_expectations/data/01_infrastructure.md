@@ -32,27 +32,13 @@ df.head()
 Выводим в качестве проверки список типов данных:
 
 ```python
-print(f"Список типов данных:\n{df.dtypes}")
+print(df.dtypes)
 ```
-Список типов данных:
-PassengerId      int64
-Survived         int64
-Pclass           int64
-Name            object
-Sex             object
-Age            float64
-SibSp            int64
-Parch            int64
-Ticket          object
-Fare           float64
-Cabin           object
-Embarked        object
-dtype: object
 
 Количество занятых мест по каютам:
 
 ```python
-print(f"Список типов данных:\n{df['Cabin']}")
+print(df['Cabin'])
 ```
 
 Первое, что бросается в глаза, это наличие значений **NaN** (это отсутствие какого-либо значения) в колонке `Cabin`.  
