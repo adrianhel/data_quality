@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.11.0-blue?logo=pypi)](https://www.python.org/downloads/release/python-3110/) 
 [![Pandas](https://img.shields.io/badge/pandas-2.1.2-blue?logo=pandas)](https://pandas.pydata.org/docs/whatsnew/v2.1.2.html) 
-[![GX](https://img.shields.io/badge/great-expectations-blue)](https://github.com/great-expectations) 
+[![GX](https://img.shields.io/badge/great_expectations-0.18.11-blue)](https://github.com/great-expectations) 
 
 ### [Назад в Data Quality ⤶](/README.md)
 
