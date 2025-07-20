@@ -14,7 +14,7 @@ pip install great_expectations==0.18.11
 pip install pandas
 ```
 
-## 1.2 Начало работы
+## 1.2 Импорт библиотек и проверка датасета
 Импортируем библиотеки:
 
 ```python
@@ -56,17 +56,4 @@ df_ge.head()
 
 ## 1.3 Код
 
-```python
-import great_expectations as gx
-import pandas as pd
-
-df = pd.read_csv('titanic.csv')
-df.head()
-
-print(df.dtypes)
-
-print(df['Cabin'])
-
-df_ge = gx.from_pandas(df)
-df_ge.head()
-```
+[Инфраструктура](data/01_infrastructure.py)
