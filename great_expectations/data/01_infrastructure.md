@@ -18,7 +18,7 @@ pip install pandas
 Импортируем библиотеки:
 
 ```python
-import great_expectations as ge
+import great_expectations as gx
 import pandas as pd
 ```
 
@@ -47,10 +47,10 @@ print(df['Cabin'])
 воспользуемся библиотекой **Great Expectations**.
 
 
-Создаем объект датафрейма GE (библиотека ожиданий):
+Создаем объект датафрейма GX (библиотека ожиданий):
 
 ```python
-df_ge = ge.from_pandas(df)
+df_ge = gx.from_pandas(df)
 df_ge.head()
 ```
 
