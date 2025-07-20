@@ -1,8 +1,8 @@
 # Great Expectations
 
-[![Python](https://img.shields.io/badge/python-3.11.0-blue?logo=pypi)](https://www.python.org/downloads/release/python-3110/)
-[![Pandas](https://img.shields.io/badge/pandas-blue?logo=pandas)]()
-[![GX](https://img.shields.io/badge/great-expectations-blue)](https://github.com/great-expectations)
+[![Python](https://img.shields.io/badge/python-3.11.0-blue?logo=pypi)](https://www.python.org/downloads/release/python-3110/) 
+[![Pandas](https://img.shields.io/badge/pandas-2.1.2-blue?logo=pandas)](https://pandas.pydata.org/docs/whatsnew/v2.1.2.html) 
+[![GX](https://img.shields.io/badge/great-expectations-blue)](https://github.com/great-expectations) 
 
 ### [Назад в Data Quality ⤶](/README.md)
 
@@ -11,12 +11,12 @@ ___
 <img src="/img/cover.png" width="100%">
 
 ## О проекте
-Изучим **некоторые** возможности по очистке данных на датасете **Титаник**.
+В проекте познакомимся с *некоторыми* возможностями библиотеки **Great Expectations** для очистки данных на датасете **Титаник**.
 
-## Используемый в проекте датасет
+## Используемый датасет
 - [Титаник](data/titanic.csv)
 
-## Содержание
+## Содержание проекта
 1. **[Инфраструктура](data/infrastructure.md)**:
 _Подгружаем библиотеку и датасет._  
 2. **[Полнота](data/completeness.py)**: 
@@ -39,5 +39,5 @@ _Проверяем на принадлежность данных опреде�
 
 **GX** предоставляет возможность профилировать и тестировать данные, а также составлять по ним отчёты.
   
- ---  
+## Дополнительные материалы
 Больше информации по библотеке [Great Expectations](https://github.com/great-expectations).
