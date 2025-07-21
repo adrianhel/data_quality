@@ -20,7 +20,7 @@ print('check1_Cabin: ', check1_Cabin) # так мы увидим полный р
 
 В `result`:
 - `element_count` это размер нашего датафрейма,
-- `unexpected_count` это количество Null значений,
+- `unexpected_count` это количество _Null_ значений,
 - `unexpected_percent` процент _Null_ значений в колонке от общего числа записей в _df_,
 - `partial_unexpected_list` это список значений, которые не удовлетворяют условимям проверки, _NaN/Null_ туда не пишется, 
 ибо это _пустота_
