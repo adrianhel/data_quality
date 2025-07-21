@@ -6,6 +6,7 @@ df = pd.read_csv('titanic.csv')
 
 df_ge = gx.from_pandas(df)
 
+
 check1_Cabin = df_ge.expect_column_values_to_not_be_null(
     column = 'Cabin',
     mostly = 0.25
