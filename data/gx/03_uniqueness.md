@@ -14,7 +14,7 @@ check2_Ticket = df_ge.expect_column_values_to_be_unique(
 print('check2_Ticket: ', check2_Ticket) # так мы увидим полный результат нашей проверки
 ```
 
-<img src="/img/gx_3.1.png" width="40%"><img src="/img/gx_3.2.png" width="40%">  
+<img src="/img/gx_3.1.png" width="40%"> <img src="/img/gx_3.2.png" width="40%">  
 
 В `result`:  
 - `element_count` - количество строк датафрейма,  
@@ -42,7 +42,7 @@ if not check2_Ticket['success']:
 print(df[df["Ticket"] == "113803"])
 ```
 
-<img src="/img/gx_3.4.png" width="20%">  
+<img src="/img/gx_3.4.png" width="40%">  
 
 Видим две записи по одному билету, судя по именам, это семья плыла по одному билету, это нормально для данного датасета, 
 поэтому изменим `mostly` с `0.99` на `0.5`.  
