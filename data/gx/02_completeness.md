@@ -14,7 +14,7 @@ check1_Cabin = df_ge.expect_column_values_to_not_be_null(   # "значение 
 print('check1_Cabin: ', check1_Cabin) # так мы увидим полный результат нашей проверки
 ```
 
-<img src="/img/gx_2.1.png" width="50%">
+<img src="/img/gx_2.1.png" width="40%">
 
 Если `success`: _true/false_ — проверка пройдена/не пройдена.
 
@@ -43,7 +43,7 @@ check1_Ticket = df_ge.expect_column_values_to_not_be_null(
 print('check1_Ticket: ', check1_Ticket) # так мы увидим полный результат нашей проверки
 ```
 
-<img src="/img/gx_2.3.png" width="50%">
+<img src="/img/gx_2.3.png" width="40%">
 
 ```python
 if not check1_Ticket['success']:     # если проверка не пройдена, то мы увидим результаты
