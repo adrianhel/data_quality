@@ -4,7 +4,7 @@
 
 ## 4.1 На примере колонки "Sex"
 Пол может быть либо _male_, либо _female_. Проверим, так ли это в нашем датасете.  
-Воспользуемся методом `expect_column_values_to_match_regex`.  
+Воспользуемся методом `expect_column_values_to_match_regex`:  
 
 ```python
 check3_Sex = df_ge.expect_column_values_to_match_regex(
