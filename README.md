@@ -2,7 +2,7 @@
 
 ![dq](https://img.shields.io/badge/data-quality-blue)
 
-### [Назад к Содержанию ⤶](https://github.com/adrianhel/contents)
+### [На главную⤶](https://github.com/adrianhel/adrianhel.md)
 
 ___
 
