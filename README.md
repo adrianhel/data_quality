@@ -1,8 +1,6 @@
 # Data Quality
 
-![dq](https://img.shields.io/badge/data-quality-blue)
-
-### [На главную⤶](https://github.com/adrianhel/adrianhel.md)
+### [На главную⤶](https://github.com/adrianhel)
 
 ___
 
