@@ -1,6 +1,6 @@
 # Data Quality
 
-### [На главную⤶](https://github.com/adrianhel)
+### [На главную ⤶](https://github.com/adrianhel)
 
 ___
 
